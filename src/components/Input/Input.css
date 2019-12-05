@@ -1,0 +1,34 @@
+.input {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.input > label {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+  color: #6E7790;
+}
+
+.input > input {
+  grid-column: 1 / span 2;
+  border-radius: 2px;
+  border: 1px solid #d7d7e7;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 0.5rem 1rem;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  grid-column: 1 / span 2;
+}
+
+.input--error > input {
+  color: #dd4b39;
+  border-color: #dd4b39;
+}
+
+.input > span {
+  font-size: 0.8rem;
+  color: #dd4b39;
+}

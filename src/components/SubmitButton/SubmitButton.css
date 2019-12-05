@@ -1,0 +1,11 @@
+button[type="submit"].submit {
+  width: 100%;
+  background: #98C550;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

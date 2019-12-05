@@ -1,0 +1,47 @@
+.topping {
+  border-radius: 2px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  grid-gap: 1rem;
+  background: #f2f2f2;
+  border: 1px solid transparent;
+}
+
+.topping--active {
+  background: #1a98e1;
+  color: white;
+}
+
+.topping--active .topping__amount > button {
+  color: white;
+}
+
+.topping > img {
+  width: 50px;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #e6e6e6;
+}
+
+.topping > span {
+  padding: 0.75rem 0;
+}
+
+.topping__amount {
+  display: grid;
+  grid-template-columns: 2rem 1.5rem 2rem;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  grid-gap: 0.5rem;
+}
+
+.topping__amount > button {
+  border: 0;
+  background: rgba(0, 0, 0, 0.1);
+  height: 100%;
+  outline: 0;
+  cursor: pointer;
+}

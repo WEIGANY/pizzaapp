@@ -1,0 +1,30 @@
+.size {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+  align-items: center;
+}
+
+.size > img {
+  --width: 100px;
+  width: var(--width);
+  border: 5px solid transparent;
+  border-radius: 50%;
+}
+
+.size--Small > img {
+  width: calc(var(--width) * 0.8);
+}
+
+.size--Medium > img {
+  width: calc(var(--width) * 1);
+}
+
+.size--Large > img {
+  width: calc(var(--width) * 1);
+}
+
+.size--active > img {
+  border-color: rgba(0, 0, 0, 0.2)!important;
+}
